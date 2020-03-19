@@ -6,4 +6,8 @@ Feature: Google Map Navigation
     Then directions should appear on screen
 
   Scenario: Click click click
-    Given hello
+    Given I am using driving directions
+    When I click the details button
+    Then I can see the direction details section
+    And I can click on arrows to see more specifics
+
