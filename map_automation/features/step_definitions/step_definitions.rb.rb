@@ -2,7 +2,7 @@ Given(/^I am on Google Maps$/) do
   @browser.goto 'www.google.com/maps'
 end
 
-And(/^I input Philidelphia and San Fransisco as my starting point and destination$/) do
+And(/^I input Philadelphia as my starting point and San Fransisco as my destination$/) do
   @browser.text_field(id: 'searchboxinput').set 'Philidelphia to San Fransisco'
   @browser.button(id: 'searchbox-searchbutton').click
 end
@@ -16,8 +16,19 @@ Given /^hello$/ do
   @browser.button.click
 end
 
-Given(/^I am using driving directions$/) do
-  @browser.div('aria-label' => 'Driving').click
+Given(/^I am using (.*) directions$/) do |movement_type|
+  case movement_type
+  when 'driving'
+    @browser.div('aria-label' => 'Driving').click
+  when 'public transportation'
+    @browser.div('aria-label' => 'Transit').click
+  when 'biking'
+    @browser.div('aria-label' => 'Cycling').click
+  when 'walking'
+    @browser.div('aria-label' => 'Walking').click
+  when 'flying'
+    @browser.div('aria-label' => 'Flights').click
+  end
 end
 
 Then(/^I can see the direction details section$/) do
