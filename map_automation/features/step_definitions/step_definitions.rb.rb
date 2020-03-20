@@ -67,9 +67,6 @@ And(/^I can click the arrows to remove the specifics$/) do
   end
 end
 
-# directions-mode-group-title_0_0
-# hideable_nontransit_0_0
-
 When(/^I click through the details of various routes$/) do
   until @browser.div(class: 'section-directions-trip-description').text.include? 'Philadelphia'
     sleep 0.5
@@ -95,5 +92,16 @@ When(/^I click through the details of various routes$/) do
 end
 
 Then(/^I will see different results$/) do
-  expect($directions_array.reject { |c| c.empty? }.uniq.length).to eq $number_of_routes
+  expect($directions_array.reject {|c| c.empty?}.uniq.length).to eq $number_of_routes
+end
+
+Then(/^I will see direction details associated with (.*)$/) do |movement_type|
+  @browser.div(class: 'section-trip-details').present?
+  @browser.div(class: 'section-trip-summary noprint').text.include? 'Your destination is in a different time zone'
+  case movement_type
+  when 'walking'
+    @browser.div(xpath: '//*[@id="pane"]/div/div[1]/div/div/div[5]/div/div/div[1]/div/div[2]/div[2]/div[1]/div[2]').text.include? 'walking directions may not always'
+  when 'biking'
+    @browser.div(xpath: '//*[@id="pane"]/div/div[1]/div/div/div[5]/div/div/div[1]/div/div[2]/div[2]/div[1]/div[1]').text.include? 'bicycling directions may not always'
+  end
 end
