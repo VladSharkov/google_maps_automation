@@ -20,7 +20,7 @@ Given(/^I am using (.*) directions$/) do |movement_type|
   case movement_type
   when 'driving'
     @browser.div('aria-label' => 'Driving').click
-  when 'public transportation'
+  when 'public transport'
     @browser.div('aria-label' => 'Transit').click
   when 'biking'
     @browser.div('aria-label' => 'Cycling').click
@@ -69,3 +69,31 @@ end
 
 # directions-mode-group-title_0_0
 # hideable_nontransit_0_0
+
+When(/^I click through the details of various routes$/) do
+  until @browser.div(class: 'section-directions-trip-description').text.include? 'Philadelphia'
+    sleep 0.5
+  end
+  $number_of_routes = @browser.divs(id: /section-directions-trip-travel-mode-/).length
+  route_index = 0
+  $directions_array = []
+  while route_index < $number_of_routes
+    until @browser.div(class: 'transit-mode-body').present?
+      @browser.div(id: /section-directions-trip-travel-mode-#{route_index}/).click
+      # @browser.span(id: "section-directions-trip-details-msg-#{route_index}").click
+      # @browser.button('aria-labelledby' => /section-directions-trip-details-msg-#{route_index}/).click
+      sleep 0.5
+    end
+    $directions_array << @browser.div(class: 'transit-mode-body').text
+    @browser.button('aria-label' => ' Back ').click
+    sleep 3
+    route_index += 1
+    # 3.times {@browser.send_keys :tab}
+    @browser.div(id: "section-directions-trip-travel-mode-#{route_index}").click if route_index < $number_of_routes
+  end
+
+end
+
+Then(/^I will see different results$/) do
+  expect($directions_array.reject { |c| c.empty? }.uniq.length).to eq $number_of_routes
+end

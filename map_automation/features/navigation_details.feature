@@ -17,7 +17,7 @@ Feature: Google Map Navigation
     When I click through the details of various routes
     Then I will see different results
 
-  Scenario: Walking and biking direction details
+  Scenario Outline: Walking and biking direction details
     Given I am using <movement_type> directions
     When I click the details button
     Then I will see direction details associated with <movement_type>
