@@ -22,6 +22,7 @@ end
 
 Then(/^I can see the direction details section$/) do
   @browser.div(class: 'section-trip-details').present?
+  @browser.div(class: 'section-trip-summary noprint').text.include? 'Your destination is in a different time zone'
 end
 
 When(/^I click the details button$/) do
@@ -29,11 +30,28 @@ When(/^I click the details button$/) do
 end
 
 And(/^I can click on arrows to see more specifics$/) do
+  until @browser.div(class: 'directions-text-waypoint first-waypoint').text.include? 'Philadelphia'
+    sleep 0.1
+  end
   number_of_arrows = @browser.buttons('aria-labelledby' => /directions-mode-group-title/).length
   arrow_index = 0
   while arrow_index < number_of_arrows
-    @browser.button('aria-labelledby' => /directions-mode-group-title_0_#{arrow_index}/).click
-    @browser.div(id: /hideable_nontransit/).present?
+    until @browser.div(id: /hideable_nontransit_0_#{arrow_index}/, style: /visibility: visible/).present?
+      @browser.button('aria-labelledby' => /directions-mode-group-title_0_#{arrow_index}/).click
+      sleep 0.5
+    end
+    arrow_index += 1
+  end
+end
+
+And(/^I can click the arrows to remove the specifics$/) do
+  number_of_arrows = @browser.buttons('aria-labelledby' => /directions-mode-group-title/).length
+  arrow_index = 0
+  while arrow_index < number_of_arrows
+    until @browser.div(id: /hideable_nontransit_0_#{arrow_index}/, style: /visibility: hidden/).exists?
+      @browser.button('aria-labelledby' => /directions-mode-group-title_0_#{arrow_index}/).click
+      sleep 0.5
+    end
     arrow_index += 1
   end
 end

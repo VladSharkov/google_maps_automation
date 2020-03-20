@@ -10,4 +10,4 @@ Feature: Google Map Navigation
     When I click the details button
     Then I can see the direction details section
     And I can click on arrows to see more specifics
-
+    And I can click the arrows to remove the specifics
