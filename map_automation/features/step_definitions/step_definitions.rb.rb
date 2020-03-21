@@ -3,7 +3,7 @@ Given(/^I am on Google Maps$/) do
 end
 
 And(/^I input Philadelphia as my starting point and San Fransisco as my destination$/) do
-  @browser.text_field(id: 'searchboxinput').set 'Philidelphia to San Fransisco'
+  @browser.text_field(id: 'searchboxinput').set 'Philadelphia to San Fransisco'
   @browser.button(id: 'searchbox-searchbutton').click
 end
 
@@ -103,5 +103,61 @@ Then(/^I will see direction details associated with (.*)$/) do |movement_type|
     @browser.div(xpath: '//*[@id="pane"]/div/div[1]/div/div/div[5]/div/div/div[1]/div/div[2]/div[2]/div[1]/div[2]').text.include? 'walking directions may not always'
   when 'biking'
     @browser.div(xpath: '//*[@id="pane"]/div/div[1]/div/div/div[5]/div/div/div[1]/div/div[2]/div[2]/div[1]/div[1]').text.include? 'bicycling directions may not always'
+  end
+end
+
+And(/^(.*) are a part of the initial directions$/) do |option|
+  case option
+  when 'highways'
+    expect(@browser.div(class: 'section-directions-trip-description').text.include? 'via I-').to eq true
+  when 'tolls'
+    expect(@browser.div(class: 'section-directions-trip-description').text.include? 'This route has tolls').to eq true
+  when 'ferries'
+    expect(@browser.div(class: 'section-directions-trip-description').text.include? 'This route includes a ferry').to eq true
+  end
+end
+
+
+When(/^I click avoid (.*) from the direction options$/) do |avoiding|
+  @browser.button(class: 'section-directions-options-link').click
+  case avoiding
+  when 'highways'
+    @browser.label(text: 'Highways').click
+  when 'tolls'
+    @browser.label(text: 'Tolls').click
+  when 'ferries'
+    @browser.label(text: 'Ferries').click
+  end
+end
+
+Then(/^the direction details will not include (.*)$/) do |option|
+  case option
+  when 'highways'
+    expect(@browser.div(class: 'section-directions-trip-description').text.include? 'via I-').to eq false
+  when 'tolls'
+    expect(@browser.div(class: 'section-directions-trip-description').text.include? 'This route has tolls').to eq false
+  when 'ferries'
+    expect(@browser.div(class: 'section-directions-trip-description').text.include? 'This route includes a ferry').to eq false
+  end
+end
+
+When(/^I switch to distance in (.*)$/) do |measurement|
+  @browser.button(class: 'section-directions-options-link').click unless @browser.label(text: 'km').present?
+  case measurement
+  when 'kilometers'
+    @browser.label(text: 'km').click
+  when 'miles'
+    @browser.label(text: 'miles').click
+  end
+end
+
+Then(/^(.*) will show up in the directions$/) do |measurement|
+  case measurement
+  when 'kilometers'
+    expect(@browser.div(class: 'section-directions-trip-description').text.match /\d km/).to_not eq nil
+    expect(@browser.div(class: 'section-directions-trip-description').text.match /\d miles/).to eq nil
+  when 'miles'
+    expect(@browser.div(class: 'section-directions-trip-description').text.match /\d miles/).to_not eq nil
+    expect(@browser.div(class: 'section-directions-trip-description').text.match /\d km/).to eq nil
   end
 end
