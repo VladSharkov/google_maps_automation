@@ -4,30 +4,25 @@ end
 
 And(/^I input Philadelphia as my starting point and San Fransisco as my destination$/) do
   @browser.text_field(id: 'searchboxinput').set 'Philadelphia to San Fransisco'
-  @browser.button(id: 'searchbox-searchbutton').click
+  @browser.button(id: 'searchbox-searchbutton').double_click
 end
 
 Then(/^directions should appear on screen$/) do
   @browser.div(id: 'section-directions-trip-travel-mode-0').present?
 end
 
-Given /^hello$/ do
-  @ninja = binjacrinja
-  @browser.button.click
-end
-
 Given(/^I am using (.*) directions$/) do |movement_type|
   case movement_type
   when 'driving'
-    @browser.div('aria-label' => 'Driving').click
+    on(MainNavigation).driving.click
   when 'public transport'
-    @browser.div('aria-label' => 'Transit').click
+    on(MainNavigation).public_transport_element.click
   when 'biking'
-    @browser.div('aria-label' => 'Cycling').click
+    on(MainNavigation).biking_element.click
   when 'walking'
-    @browser.div('aria-label' => 'Walking').click
+    on(MainNavigation).walking_element.click
   when 'flying'
-    @browser.div('aria-label' => 'Flights').click
+    on(MainNavigation).flying_element.click
   end
 end
 
