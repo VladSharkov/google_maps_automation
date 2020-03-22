@@ -16,6 +16,8 @@ class DirectionDetails
 
   #----------------------------------DRIVING SECTION-----------------------------------------
 
+  #This method clicks on each arrow on the page to show the direction specifics and checks to see that the particular
+  #expected sections under each arrow show up.
   def see_specifics
     until self.trip_details_element.text.include? 'Philadelphia'
       sleep 0.1
@@ -31,6 +33,8 @@ class DirectionDetails
     end
   end
 
+  #This method clicks on all arrows on the page to hide the specific directions beneath and validates that those
+  #sections are indeed hidden.
   def hide_specifics
     number_of_arrows = @browser.buttons('aria-labelledby' => /directions-mode-group-title/).length
     arrow_index = 0
@@ -48,6 +52,8 @@ class DirectionDetails
   div :bus_details, class: 'section-directions-trip-description'
   div :bus_route_specifics, class: 'transit-mode-body'
 
+  #This method clicks into each bus route, grabs the text from each route and places it in an array, and, in the end,
+  #compares text objects in the array to make sure none are empty and all are unique.
   def check_bus_routes
     until self.bus_details_element.present?
       sleep 0.1

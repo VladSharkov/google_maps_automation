@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="945b6ccd-bb7e-4c61-aafb-42dfbd93db30" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/map_automation/features/step_definitions/basic_steps.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map_automation/features/step_definitions/option_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map_automation/features/navigation_details.feature" beforeDir="false" afterPath="$PROJECT_DIR$/map_automation/features/navigation_details.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map_automation/features/navigation_options.feature" beforeDir="false" afterPath="$PROJECT_DIR$/map_automation/features/navigation_options.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_automation/features/step_definitions/step_definitions.rb.rb" beforeDir="false" afterPath="$PROJECT_DIR$/map_automation/features/step_definitions/direction_detail_steps.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb" beforeDir="false" afterPath="$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_automation/features/support/pages/main_navigation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/map_automation/features/support/pages/main_navigation.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_automation/features/support/pages/maps_base_page.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_automation/features/support/pages/options_section.rb" beforeDir="false" afterPath="$PROJECT_DIR$/map_automation/features/support/pages/options_section.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,31 +43,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map_automation/features/navigation_details.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map_automation/features/navigation_options.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/direction_detail_steps.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-319" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/option_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+            <state relative-caret-position="119">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -81,16 +77,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/basic_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="17">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/map_automation/features/support/pages/main_navigation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="255">
               <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
             </state>
           </provider>
@@ -108,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="612">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -124,16 +120,16 @@
       <list>
         <option value="$PROJECT_DIR$/map_automation/features/navigation.feature" />
         <option value="$PROJECT_DIR$/map_automation/features/direction_options.feature" />
-        <option value="$PROJECT_DIR$/map_automation/features/navigation_details.feature" />
         <option value="$PROJECT_DIR$/map_automation/Gemfile" />
         <option value="$PROJECT_DIR$/map_automation/features/support/pages/maps_base_page.rb" />
         <option value="$PROJECT_DIR$/map_automation/features/support/pages/options_section.rb" />
-        <option value="$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb" />
         <option value="$PROJECT_DIR$/map_automation/features/support/pages/main_navigation.rb" />
         <option value="$PROJECT_DIR$/map_automation/features/step_definitions/option_steps.rb" />
-        <option value="$PROJECT_DIR$/map_automation/features/navigation_options.feature" />
         <option value="$PROJECT_DIR$/map_automation/features/step_definitions/step_definitions.rb.rb" />
         <option value="$PROJECT_DIR$/map_automation/features/step_definitions/background_steps.rb" />
+        <option value="$PROJECT_DIR$/map_automation/features/navigation_details.feature" />
+        <option value="$PROJECT_DIR$/map_automation/features/navigation_options.feature" />
+        <option value="$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb" />
       </list>
     </option>
   </component>
@@ -404,17 +400,11 @@
       <workItem from="1584578024840" duration="1520000" />
       <workItem from="1584579602179" duration="1050000" />
       <workItem from="1584630780954" duration="473000" />
-      <workItem from="1584644524181" duration="56255000" />
+      <workItem from="1584644524181" duration="57636000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="navigation_details_feature - 2020.03.21 at 22h 01m 18s.xml">
-      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_details_feature - 2020.03.21 at 22h 02m 31s.xml">
-      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="navigation_details_feature - 2020.03.21 at 22h 09m 28s.xml">
       <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -439,20 +429,26 @@
     <history-entry file="navigation_details_feature - 2020.03.21 at 22h 30m 40s.xml">
       <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="navigation_options_feature - 2020.03.21 at 22h 32m 58s.xml">
+      <configuration name="navigation_options.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Avoiding_ferries_while_biking - 2020.03.21 at 22h 34m 21s.xml">
+      <configuration name="Scenario: Avoiding ferries while biking" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59298000" />
+    <option name="totallyTimeSpent" value="60679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3282313" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3282313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.414966" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,7 +498,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb</url>
-          <line>64</line>
+          <line>70</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
@@ -608,41 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/direction_detail_steps.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/option_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/basic_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map_automation/features/support/pages/maps_base_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_automation/features/support/pages/main_navigation.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -655,15 +620,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map_automation/features/navigation_details.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/option_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/direction_detail_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map_automation/features/navigation_options.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map_automation/features/step_definitions/basic_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map_automation/features/support/pages/direction_details.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map_automation/features/support/pages/main_navigation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
         </state>
       </provider>
     </entry>
