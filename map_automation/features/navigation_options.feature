@@ -1,4 +1,4 @@
-Feature: Investigating options
+Feature: Investigating Options
 
   Background: I ask Google Maps for directions from Philadelphia to San Fransisco
     Given I am on Google Maps
@@ -13,7 +13,7 @@ Feature: Investigating options
 
   Scenario: Avoiding tolls while driving
     Given I am using driving directions
-    And And tolls are a part of the initial directions
+    And tolls are a part of the initial directions
     When I click avoid tolls from the direction options
     Then the direction details will not include tolls
 
