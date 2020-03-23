@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/google_maps_automation@navigation_options_feature__1_.rcov" NAME="navigation_options.feature (1) Coverage Results" MODIFIED="1584924429048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
+    <SUITE FILE_PATH="coverage/google_maps_automation@navigation_options_feature__1_.rcov" NAME="navigation_options.feature (1) Coverage Results" MODIFIED="1584926166474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Driving_direction_details__2_.rcov" NAME="Scenario: Driving direction details (2) Coverage Results" MODIFIED="1584723488180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/google_maps_automation@navigation_options_feature.rcov" NAME="navigation_options.feature Coverage Results" MODIFIED="1584920574011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_ferries_while_driving__1_.rcov" NAME="Scenario: Avoiding ferries while driving (1) Coverage Results" MODIFIED="1584752874843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
@@ -209,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.navigation_details.feature">
+  <component name="RunManager" selected="Cucumber.navigation_options.feature (1)">
     <configuration name="Unnamed" type="CucumberRunConfigurationType" factoryName="Cucumber" nameIsGenerated="true">
       <module name="map_automation" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -343,8 +343,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber.navigation_details.feature" />
         <item itemvalue="Cucumber.navigation_options.feature (1)" />
+        <item itemvalue="Cucumber.navigation_details.feature" />
         <item itemvalue="Cucumber.navigation_options.feature" />
       </list>
     </recent_temporary>
