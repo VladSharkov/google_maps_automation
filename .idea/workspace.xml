@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d135455-f1ce-4cfe-9971-5589f495558d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/basic_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/basic_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/option_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/option_steps.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_example.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/screenshots/screenshot_example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/pages/direction_details.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/pages/direction_details.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/pages/main_navigation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/pages/main_navigation.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/last_run.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/last_run.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +17,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/google_maps_automation@navigation_options_feature__1_.rcov" NAME="navigation_options.feature (1) Coverage Results" MODIFIED="1584929444779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
+    <SUITE FILE_PATH="coverage/google_maps_automation@navigation_options_feature__1_.rcov" NAME="navigation_options.feature (1) Coverage Results" MODIFIED="1584932077593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Driving_direction_details__2_.rcov" NAME="Scenario: Driving direction details (2) Coverage Results" MODIFIED="1584723488180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
+    <SUITE FILE_PATH="coverage/google_maps_automation@Scenario__Avoiding_highways_while_driving.rcov" NAME="Scenario: Avoiding highways while driving Coverage Results" MODIFIED="1584932259748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
     <SUITE FILE_PATH="coverage/google_maps_automation@navigation_options_feature.rcov" NAME="navigation_options.feature Coverage Results" MODIFIED="1584920574011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_ferries_while_driving__1_.rcov" NAME="Scenario: Avoiding ferries while driving (1) Coverage Results" MODIFIED="1584752874843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@navigation_options_feature.rcov" NAME="navigation_options.feature Coverage Results" MODIFIED="1584844249255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
@@ -35,7 +41,7 @@
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Driving_direction_details__1_.rcov" NAME="Scenario: Driving direction details (1) Coverage Results" MODIFIED="1584723158767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_highways_while_driving.rcov" NAME="Scenario: Avoiding highways while driving Coverage Results" MODIFIED="1584750219711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Click_click_click.rcov" NAME="Scenario: Click click click Coverage Results" MODIFIED="1584579948773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
-    <SUITE FILE_PATH="coverage/google_maps_automation@navigation_details_feature.rcov" NAME="navigation_details.feature Coverage Results" MODIFIED="1584924637786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
+    <SUITE FILE_PATH="coverage/google_maps_automation@navigation_details_feature.rcov" NAME="navigation_details.feature Coverage Results" MODIFIED="1584931901080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_tolls_while_driving__1_.rcov" NAME="Scenario: Avoiding tolls while driving (1) Coverage Results" MODIFIED="1584752556473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Switching_from_miles_to_kilometers.rcov" NAME="Scenario: Switching from miles to kilometers Coverage Results" MODIFIED="1584838441272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Click_click_click__2_.rcov" NAME="Scenario: Click click click (2) Coverage Results" MODIFIED="1584665408402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
@@ -45,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/navigation_details.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,31 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/navigation_options.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/option_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/direction_detail_steps.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -97,31 +80,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/option_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/direction_detail_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-74" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/direction_details.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/main_navigation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="510">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/options_section.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -137,22 +153,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/step_definitions/basic_steps.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/main_navigation.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/step_definitions/option_steps.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/reports/report.html" />
+        <option value="$PROJECT_DIR$/features/step_definitions/basic_steps.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/direction_details.rb" />
+        <option value="$PROJECT_DIR$/features/navigation_details.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/main_navigation.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/option_steps.rb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="856" />
+    <option name="width" value="1071" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,7 +257,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.navigation_options.feature (1)">
+  <component name="RunManager" selected="Cucumber.Scenario: Avoiding highways while driving">
+    <configuration name="Scenario: Avoiding highways while driving" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="map_automation" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/navigation_options.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Avoiding highways while driving$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="CucumberRunConfigurationType" factoryName="Cucumber" nameIsGenerated="true">
       <module name="map_automation" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -371,9 +420,11 @@
       <item itemvalue="Cucumber.navigation_options.feature" />
       <item itemvalue="Cucumber.navigation_options.feature (1)" />
       <item itemvalue="Cucumber.navigation_details.feature" />
+      <item itemvalue="Cucumber.Scenario: Avoiding highways while driving" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber.Scenario: Avoiding highways while driving" />
         <item itemvalue="Cucumber.navigation_options.feature (1)" />
         <item itemvalue="Cucumber.navigation_details.feature" />
         <item itemvalue="Cucumber.navigation_options.feature" />
@@ -393,56 +444,56 @@
       <updated>1584640730781</updated>
       <workItem from="1584640732242" duration="929000" />
       <workItem from="1584917246730" duration="4822000" />
-      <workItem from="1584924349014" duration="4252000" />
+      <workItem from="1584924349014" duration="7354000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 24m 41s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 26m 33s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 31m 02s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 31m 21s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 34m 28s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 35m 29s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 47m 06s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 20h 48m 53s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="navigation_details_feature - 2020.03.22 at 20h 52m 29s.xml">
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 33m 22s.xml">
       <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="navigation_options_feature_(1) - 2020.03.22 at 21h 16m 30s.xml">
-      <configuration name="navigation_options.feature (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 33m 49s.xml">
+      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 35m 53s.xml">
+      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 38m 29s.xml">
+      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 40m 47s.xml">
+      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 44m 03s.xml">
+      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 46m 52s.xml">
+      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="navigation_details_feature - 2020.03.22 at 22h 52m 52s.xml">
+      <configuration name="navigation_details.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Avoiding_highways_while_driving - 2020.03.22 at 22h 56m 58s.xml">
+      <configuration name="Scenario: Avoiding highways while driving" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Avoiding_highways_while_driving - 2020.03.22 at 22h 58m 08s.xml">
+      <configuration name="Scenario: Avoiding highways while driving" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10027000" />
+    <option name="totallyTimeSpent" value="13129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="856" y="0" width="1071" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23454158" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23541048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29978117" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39824945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -481,17 +532,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/features/support/pages/main_navigation.rb</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -567,20 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/navigation_details.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/navigation_options.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -589,6 +615,13 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/watir-6.16.5/lib/watir/elements/html_elements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="1123" column="8" selection-start-line="1123" selection-start-column="8" selection-end-line="1123" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -603,42 +636,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/navigation_details.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/navigation_options.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/screenshots/Avoiding_highways_while_driving_2020-03-22_22-56-57_-0400.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/direction_details.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/main_navigation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/options_section.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/main_navigation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/direction_detail_steps.rb">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/option_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="527">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/direction_details.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

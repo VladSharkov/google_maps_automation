@@ -55,7 +55,7 @@ class DirectionDetails
   #This method clicks into each bus route, grabs the text from each route and places it in an array, and, in the end,
   #compares text objects in the array to make sure none are empty and all are unique.
   def check_bus_routes
-    until self.bus_details_element.present?
+    until self.bus_details_element.present? and self.details_element.present?
       sleep 0.1
     end
     $number_of_routes = @browser.divs(id: /section-directions-trip-travel-mode-/).length

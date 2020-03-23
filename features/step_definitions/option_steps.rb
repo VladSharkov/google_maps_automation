@@ -9,7 +9,6 @@ And(/^(.*) are a part of the initial directions$/) do |option|
   end
 end
 
-
 When(/^I click avoid (.*) from the direction options$/) do |avoiding|
   on(OptionsSection).options
   case avoiding
