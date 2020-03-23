@@ -25,7 +25,7 @@ end
 Then(/^the direction details will not include (.*)$/) do |option|
   case option
   when 'highways'
-    expect(on(DirectionDetails).details_section_element.text.include? 'via I-').to eq true
+    expect(on(DirectionDetails).details_section_element.text.include? 'via I-').to eq false
   when 'tolls'
     expect(on(DirectionDetails).details_section_element.text.include? 'This route has tolls').to eq false
   when 'ferries'
