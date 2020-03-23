@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d135455-f1ce-4cfe-9971-5589f495558d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/basic_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/basic_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/option_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/option_steps.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/pages/direction_details.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/pages/direction_details.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/pages/main_navigation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/pages/main_navigation.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/last_run.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/last_run.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +29,7 @@
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_ferries_while_driving__2_.rcov" NAME="Scenario: Avoiding ferries while driving (2) Coverage Results" MODIFIED="1584752887327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Switching_from_miles_to_kilometers__1_.rcov" NAME="Scenario: Switching from miles to kilometers (1) Coverage Results" MODIFIED="1584840408486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_highways_while_driving__1_.rcov" NAME="Scenario: Avoiding highways while driving (1) Coverage Results" MODIFIED="1584752140646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
+    <SUITE FILE_PATH="coverage/google_maps_automation@Scenario__Switching_from_miles_to_kilometers.rcov" NAME="Scenario: Switching from miles to kilometers Coverage Results" MODIFIED="1584934409366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="map_automation" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_tolls_while_driving.rcov" NAME="Scenario: Avoiding tolls while driving Coverage Results" MODIFIED="1584834075324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Public_transport_direction_details.rcov" NAME="Scenario: Public transport direction details Coverage Results" MODIFIED="1584837196866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
     <SUITE FILE_PATH="coverage/map_testing@Scenario__Avoiding_ferries_while_driving.rcov" NAME="Scenario: Avoiding ferries while driving Coverage Results" MODIFIED="1584752712063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map_automation" MODULE_NAME="Map Testing" />
@@ -57,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/navigation_options.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -95,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -126,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -161,12 +157,12 @@
         <option value="$PROJECT_DIR$/features/support/pages/direction_details.rb" />
         <option value="$PROJECT_DIR$/features/navigation_details.feature" />
         <option value="$PROJECT_DIR$/features/support/pages/main_navigation.rb" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/option_steps.rb" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="856" />
     <option name="width" value="1071" />
     <option name="height" value="1047" />
@@ -193,25 +189,7 @@
               <item name="google_maps_automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="google_maps_automation" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="google_maps_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google_maps_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="google_maps_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google_maps_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="google_maps_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="google_maps_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Avoiding highways while driving">
+  <component name="RunManager" selected="Cucumber.Scenario: Switching from miles to kilometers">
     <configuration name="Scenario: Avoiding highways while driving" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="map_automation" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -278,6 +256,38 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/navigation_options.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Avoiding highways while driving$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scenario: Switching from miles to kilometers" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="map_automation" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/navigation_options.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Switching from miles to kilometers$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -421,9 +431,11 @@
       <item itemvalue="Cucumber.navigation_options.feature (1)" />
       <item itemvalue="Cucumber.navigation_details.feature" />
       <item itemvalue="Cucumber.Scenario: Avoiding highways while driving" />
+      <item itemvalue="Cucumber.Scenario: Switching from miles to kilometers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber.Scenario: Switching from miles to kilometers" />
         <item itemvalue="Cucumber.Scenario: Avoiding highways while driving" />
         <item itemvalue="Cucumber.navigation_options.feature (1)" />
         <item itemvalue="Cucumber.navigation_details.feature" />
@@ -444,7 +456,7 @@
       <updated>1584640730781</updated>
       <workItem from="1584640732242" duration="929000" />
       <workItem from="1584917246730" duration="4822000" />
-      <workItem from="1584924349014" duration="7354000" />
+      <workItem from="1584924349014" duration="8900000" />
     </task>
     <servers />
   </component>
@@ -481,18 +493,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13129000" />
+    <option name="totallyTimeSpent" value="14675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="856" y="0" width="1071" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23541048" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29978117" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29685807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39824945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -643,22 +655,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/navigation_options.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/screenshots/Avoiding_highways_while_driving_2020-03-22_22-56-57_-0400.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/direction_details.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,8 +693,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/navigation_options.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>

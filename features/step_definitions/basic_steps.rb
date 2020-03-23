@@ -4,7 +4,7 @@ Given(/^I am on Google Maps$/) do
 end
 
 And(/^I input Philadelphia as my starting point and San Fransisco as my destination$/) do
-  on(MainNavigation).search_input_element.set ''
+  on(MainNavigation).search_input_element.set 'Philadelphia to San Fransisco'
   @current_page.search_element.double_click
   #Second check for when google loads slowly and erases first input
   if on(MainNavigation).search_input_element.present?
